@@ -1,4 +1,4 @@
-// Aqua Marketing Agency - Main JavaScript
+// Aqua Marketing Group - Main JavaScript
 
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile Menu Toggle
