@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="skyGulf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#B0E0E6"/>
+    </linearGradient>
+    <linearGradient id="oceanGulf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00B4DB"/>
+      <stop offset="100%" style="stop-color:#0083B0"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="300" height="200" fill="url(#skyGulf)"/>
+  <!-- Sun -->
+  <circle cx="250" cy="40" r="30" fill="#FFD700"/>
+  <!-- Ocean -->
+  <rect x="0" y="120" width="300" height="50" fill="url(#oceanGulf)"/>
+  <path d="M0 125 Q25 120 50 125 Q75 130 100 125 Q125 120 150 125 Q175 130 200 125 Q225 120 250 125 Q275 130 300 125" stroke="white" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M0 135 Q30 130 60 135 Q90 140 120 135 Q150 130 180 135 Q210 140 240 135 Q270 130 300 135" stroke="white" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Beach -->
+  <rect x="0" y="165" width="300" height="35" fill="#F4D03F"/>
+  <ellipse cx="50" cy="180" rx="30" ry="8" fill="#E6C229" opacity="0.5"/>
+  <ellipse cx="150" cy="185" rx="40" ry="6" fill="#E6C229" opacity="0.4"/>
+  <ellipse cx="250" cy="178" rx="25" ry="7" fill="#E6C229" opacity="0.5"/>
+  <!-- Beach umbrella -->
+  <line x1="80" y1="175" x2="80" y2="145" stroke="#8B4513" stroke-width="3"/>
+  <path d="M55 145 Q80 130 105 145" fill="#FF6B6B" stroke="#E74C3C" stroke-width="2"/>
+  <!-- Beach chair -->
+  <rect x="90" y="168" width="15" height="12" fill="#3498DB" transform="rotate(-10 97 174)"/>
+  <!-- Palm tree -->
+  <rect x="200" y="150" width="6" height="35" fill="#8B4513"/>
+  <ellipse cx="190" cy="145" rx="20" ry="8" fill="#228B22" transform="rotate(-30 190 145)"/>
+  <ellipse cx="210" cy="145" rx="20" ry="8" fill="#2E8B2E" transform="rotate(30 210 145)"/>
+  <ellipse cx="203" cy="140" rx="18" ry="7" fill="#1B5E20" transform="rotate(5 203 140)"/>
+  <!-- Seashells -->
+  <ellipse cx="120" cy="185" rx="4" ry="3" fill="#FFF5EE"/>
+  <ellipse cx="180" cy="190" rx="3" ry="2" fill="#FFE4E1"/>
+  <ellipse cx="230" cy="188" rx="4" ry="3" fill="#FFF5EE"/>
+</svg>

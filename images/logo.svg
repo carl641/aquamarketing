@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <defs>
+    <linearGradient id="aquaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00B4DB"/>
+      <stop offset="100%" style="stop-color:#0083B0"/>
+    </linearGradient>
+  </defs>
+  <!-- Water droplet icon -->
+  <path d="M25 5 C25 5 10 25 10 35 C10 45 16 52 25 52 C34 52 40 45 40 35 C40 25 25 5 25 5" fill="url(#aquaGradient)"/>
+  <ellipse cx="20" cy="32" rx="4" ry="6" fill="rgba(255,255,255,0.3)"/>
+  <!-- Wave inside droplet -->
+  <path d="M15 38 Q20 34 25 38 Q30 42 35 38" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="50" y="38" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#aquaGradient)">Aqua MG</text>
+</svg>
