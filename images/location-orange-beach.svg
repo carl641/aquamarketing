@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="sunsetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7F50"/>
+      <stop offset="30%" style="stop-color:#FFB347"/>
+      <stop offset="60%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#4682B4"/>
+    </linearGradient>
+    <linearGradient id="oceanOrange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C00"/>
+      <stop offset="50%" style="stop-color:#0083B0"/>
+      <stop offset="100%" style="stop-color:#005F73"/>
+    </linearGradient>
+  </defs>
+  <!-- Sunset sky -->
+  <rect width="300" height="200" fill="url(#sunsetSky)"/>
+  <!-- Setting sun -->
+  <circle cx="150" cy="100" r="35" fill="#FF4500" opacity="0.9"/>
+  <circle cx="150" cy="100" r="28" fill="#FF6347"/>
+  <circle cx="150" cy="100" r="20" fill="#FFD700"/>
+  <!-- Clouds -->
+  <ellipse cx="60" cy="40" rx="30" ry="12" fill="white" opacity="0.6"/>
+  <ellipse cx="80" cy="35" rx="25" ry="10" fill="white" opacity="0.5"/>
+  <ellipse cx="230" cy="50" rx="35" ry="14" fill="#FFB6C1" opacity="0.5"/>
+  <!-- Ocean with sunset reflection -->
+  <rect x="0" y="120" width="300" height="50" fill="url(#oceanOrange)"/>
+  <!-- Sun reflection on water -->
+  <ellipse cx="150" cy="135" rx="30" ry="8" fill="#FFD700" opacity="0.4"/>
+  <ellipse cx="150" cy="145" rx="20" ry="5" fill="#FFA500" opacity="0.3"/>
+  <path d="M0 125 Q25 122 50 128 Q75 134 100 128 Q125 122 150 128 Q175 134 200 128 Q225 122 250 128 Q275 134 300 128" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Beach -->
+  <rect x="0" y="165" width="300" height="35" fill="#DEB887"/>
+  <!-- Beach grass/dunes -->
+  <path d="M10 165 Q15 155 20 165 M25 165 Q30 157 35 165 M40 165 Q45 158 50 165" stroke="#228B22" stroke-width="2" fill="none"/>
+  <path d="M260 165 Q265 156 270 165 M275 165 Q280 158 285 165 M290 165 Q295 157 300 165" stroke="#228B22" stroke-width="2" fill="none"/>
+  <!-- Pier silhouette -->
+  <rect x="100" y="155" width="100" height="3" fill="#2F4F4F"/>
+  <rect x="105" y="158" width="3" height="15" fill="#2F4F4F"/>
+  <rect x="130" y="158" width="3" height="15" fill="#2F4F4F"/>
+  <rect x="155" y="158" width="3" height="15" fill="#2F4F4F"/>
+  <rect x="180" y="158" width="3" height="15" fill="#2F4F4F"/>
+  <rect x="193" y="158" width="3" height="15" fill="#2F4F4F"/>
+  <!-- Fishing boat silhouette -->
+  <path d="M220 140 L240 140 L245 150 L215 150 Z" fill="#2F4F4F"/>
+  <line x1="230" y1="140" x2="230" y2="125" stroke="#2F4F4F" stroke-width="2"/>
+</svg>

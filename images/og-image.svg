@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00B4DB"/>
+      <stop offset="100%" style="stop-color:#0083B0"/>
+    </linearGradient>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#e0f7fa"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <!-- Wave pattern -->
+  <path d="M0 400 Q150 350 300 400 Q450 450 600 400 Q750 350 900 400 Q1050 450 1200 400 L1200 630 L0 630 Z" fill="rgba(255,255,255,0.1)"/>
+  <path d="M0 450 Q150 400 300 450 Q450 500 600 450 Q750 400 900 450 Q1050 500 1200 450 L1200 630 L0 630 Z" fill="rgba(255,255,255,0.08)"/>
+  <path d="M0 500 Q150 450 300 500 Q450 550 600 500 Q750 450 900 500 Q1050 550 1200 500 L1200 630 L0 630 Z" fill="rgba(255,255,255,0.05)"/>
+  <!-- Bubbles -->
+  <circle cx="100" cy="200" r="30" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="1050" cy="150" r="45" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="200" cy="400" r="20" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="1100" cy="350" r="25" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="950" cy="250" r="15" fill="rgba(255,255,255,0.15)"/>
+  <!-- Logo droplet -->
+  <path d="M600 100 C600 100 520 220 520 280 C520 340 555 380 600 380 C645 380 680 340 680 280 C680 220 600 100 600 100" fill="url(#logoGrad)"/>
+  <ellipse cx="570" cy="270" rx="15" ry="25" fill="rgba(0,180,219,0.3)"/>
+  <path d="M545 300 Q572 275 600 300 Q628 325 655 300" stroke="rgba(0,180,219,0.5)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Company name -->
+  <text x="600" y="470" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">Aqua Marketing Group</text>
+  <!-- Tagline -->
+  <text x="600" y="530" font-family="Arial, sans-serif" font-size="32" fill="rgba(255,255,255,0.9)" text-anchor="middle">Digital Marketing for Alabama's Gulf Coast</text>
+</svg>
