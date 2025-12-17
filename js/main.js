@@ -206,11 +206,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Active navigation highlighting
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    let currentPage = window.location.pathname.split('/').pop() || '';
+    // Handle both root path and index page
+    if (currentPage === '' || currentPage === 'index' || currentPage === 'index.html') {
+        currentPage = '/';
+    }
     const navLinksItems = document.querySelectorAll('.nav-links a');
     navLinksItems.forEach(link => {
         const href = link.getAttribute('href');
-        if (href === currentPage) {
+        if (href === currentPage || (currentPage === '/' && href === '/')) {
             link.classList.add('active');
         } else {
             link.classList.remove('active');
